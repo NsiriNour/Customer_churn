@@ -4,7 +4,7 @@ Ce projet contient un notebook de datamining pour la prédiction du churn client
 
 ## Contenu
 
-- `Churn_Prediction_DataMining.ipynb` : Notebook principal pour l'exploration des données, le prétraitement, la construction du modèle, et l'évaluation.
+- `code_projet.ipynb` : Notebook principal pour l'exploration des données, le prétraitement, la construction du modèle, et l'évaluation.
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv` : Jeu de données client utilisé pour l'entraînement et l'évaluation.
 
 ## Objectif
@@ -46,7 +46,7 @@ Lancez le notebook avec Jupyter :
 jupyter notebook
 ```
 
-Puis ouvrez `Churn_Prediction_DataMining.ipynb`.
+Puis ouvrez `code_projet.ipynb`.
 
 ## Dépendances principales
 
@@ -58,18 +58,3 @@ Puis ouvrez `Churn_Prediction_DataMining.ipynb`.
 - seaborn
 - xgboost
 - notebook
-
-## GitHub
-
-Pour pousser le projet sur GitHub :
-
-```bash
-git init
-git add .
-git commit -m "Ajout du notebook de churn et des fichiers de configuration"
-git branch -M main
-git remote add origin https://github.com/<votre-utilisateur>/<votre-repo>.git
-git push -u origin main
-```
-
-Remplacez `<votre-utilisateur>` et `<votre-repo>` par vos informations GitHub.
